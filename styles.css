@@ -1,0 +1,42 @@
+html, head, body, div {
+	padding: 0px;
+	margin: 0px;
+	font-family: Arial, sans-serif;
+}
+
+div {
+	font-family: Arial, sans-serif;
+	padding: 1px;
+}	
+
+h1 {
+	color: green;
+	text-align: center;
+}
+
+#nav {
+	background: lightgreen;
+}
+
+table, th, td {
+	margin: 20px;
+	padding: 20px;
+	border-collapse: collapse;
+	border: 1px solid green;
+	text-align: center;
+}
+
+.picturecell {
+	border: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.tablepic {
+	border: none;
+	padding: 0px;
+	margin: 0px;
+	border-collapse: collapse;
+	max-width: 250px;
+	max-height: 250px;
+}
