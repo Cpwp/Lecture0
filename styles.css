@@ -28,7 +28,10 @@ h1 {
 	min-width: 150px;
 	width: 15%;
 	padding: 10px;
+  text-align: center;
 }
+
+
 
 table, th, td {
 	margin: 20px;
