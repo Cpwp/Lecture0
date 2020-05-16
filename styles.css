@@ -39,18 +39,16 @@ table, th, td {
 }
 
 .picturecell {
-	border: none;
-	padding: 0px;
-	margin: 0px;
-}
-
-.tablepic {
-	border: none;
+	border: 0px;
 	padding: 0px;
 	margin: 0px;
 	border-collapse: collapse;
+}
+
+.tablepic {
 	max-width: 250px;
 	max-height: 250px;
+	display: block;
 }
 
 input[type=password] {
