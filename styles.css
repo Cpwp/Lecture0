@@ -1,28 +1,51 @@
 h1 {
 	color: green;
-}
-
-#contentlogin {
-	background: #00cc44;
+	text-align: center;
+	padding: 5px;
+	margin: 0px;
+	background: #e6ffe6;
 }
 
 table, th, td {
+	margin: 20px;
+	padding: 20px;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+input[type="radio"] {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.row {
+	background: lightgreen;
+	text-align: center;
+	padding: 10px;
 }
 
 .picturecell {
 	border: 0px;
 	padding: 0px;
-	margin: 0px;
+	margin: auto;
 	border-collapse: collapse;
+	color: lightgray;
 }
 
 .tablepic {
 	max-width: 250px;
 	max-height: 250px;
+	margin: auto;
 	display: block;
 }
 
+#contentlogin {
+	background: #00cc44;
+	padding: 10px;
+}
+
 input[type=password] {
+	background: lightgray;
 }
 
 button:hover {
