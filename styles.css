@@ -5,17 +5,29 @@ html, head, body, div {
 }
 
 div {
-	font-family: Arial, sans-serif;
 	padding: 1px;
-}	
+}
 
 h1 {
 	color: green;
 	text-align: center;
 }
 
+#contentlogin {
+	background: #00cc44;
+	padding: 10px;
+}
+
 #nav {
+	display: flex;
+	flex-wrap: wrap;
 	background: lightgreen;
+}
+
+#nav > div {
+	min-width: 150px;
+	width: 15%;
+	padding: 10px;
 }
 
 table, th, td {
@@ -39,4 +51,31 @@ table, th, td {
 	border-collapse: collapse;
 	max-width: 250px;
 	max-height: 250px;
+}
+
+input[type=password] {
+	background: lightgray;
+}
+
+button:hover {
+	background-color: blue;
+	color: white;
+}
+
+@media print {
+	.picturecell {
+		display: none;
+	}
+}
+
+@media (min-width: 850px) {
+	.picturcell {
+		display: inline;
+	}
+}
+
+@media (max-width: 849px) {
+	.picturecell {
+		display: none;
+	}
 }

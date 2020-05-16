@@ -2,6 +2,7 @@
 <HTML>
  <HEAD>
   <TITLE>Sustainable - Food</TITLE>
+  <meta name="viewport" content="width=device-width, inital-scale=1.0">
   <LINK REL="stylesheet" HREF="styles.css">
  </HEAD>
  <BODY>
@@ -15,9 +16,28 @@
     <LI>Food</LI>
     <LI><A HREF="Travel.html">Travel</A></LI>
     <LI><A HREF="Waste.html">Waste</A></LI>
-   </UL>
+    </UL>
   </div>
-  </div id="content">
+  <div id="contentlogin">
+    <input name="name" type="text" placeholder="Name">
+    <input name="password" type="password" placeholder="Password">
+    &nbsp;&nbsp;&nbsp;
+    <input name="country" list="diet"  placeholder="Diet (select)">
+    <datalist id="diet">
+      <option value="Red meat incl. Beef">
+      <option value="Red meat excl. Beef">
+      <option value="Meat excl. Red Meat">
+      <option value="Pescatarian (fish only)">
+      <option value="Vegetarian">
+      <option value="Vegan">
+    </datalist>
+    &nbsp;&nbsp;&nbsp;Cultural origin:
+    <input name="region" type="radio" value="Western">Western
+    <input name="region" type="radio" value="Asian">Asian
+    <input name="region" type="radio" value="South American">South American
+    <input name="region" type="radio" value="African">African
+    <input name="region" type="radio" value="Other">Other
+    &nbsp;&nbsp;&nbsp;<button>Enter</button>
   </div>
  </BODY>
 </HTML>
