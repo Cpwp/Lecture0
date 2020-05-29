@@ -52,7 +52,7 @@ The website uses Bootstrap 4: https://stackpath.bootstrapcdn.com/bootstrap/4.5.0
 1 example of use of an scss inheritance: table, th and td all extend %tablestyle
 
 8) "In README.md, include a short writeup describing your project, what’s contained in each file, and (optionally) any other additional information the staff should know about your project."
-You just finished reading it :)
+You just finished reading it, I hope it wasn't too long :)
 
 Many thanks,
 Chris Willmott-Powell
