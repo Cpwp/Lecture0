@@ -7,21 +7,22 @@
   <LINK REL="stylesheet" HREF="styles.css">
  </HEAD>
  <BODY>
-  <div id="banner">
-   <h1>Sustainable Food</h1>
-  </div>
-  <div class="row">
-   <div class="col-lg-2 col-sm-6"><A HREF="index.html">Home</A></div>
-   <div class="col-lg-2 col-sm-6"><A HREF="Energy.html">Energy</A></div>
-   <div class="col-lg-2 col-sm-6"><A HREF="Food.html">Food</A></div>
-   <div class="col-lg-2 col-sm-6"><A HREF="Travel.html">Travel</A></div>
-   <div class="col-lg-2 col-sm-6"><A HREF="Waste.html">Waste</A></div>
-  </div>
-  <div id="contentlogin">
-    <input name="name" type="text" placeholder="Name">
+  <nav class="navbar nav-pills navbar-expand-sm bg-lightgreen">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Sustainable</a>
+      <ul class="nav navbar-nav">
+        <li class="nav-item"><A class="nav-link" HREF="Energy.html">Energy</A></li>
+        <li class="nav-item"><A class="nav-link active" HREF="Food.html">Food</A></li>
+        <li class="nav-item"><A class="nav-link" HREF="Travel.html">Travel</A></li>
+        <li class="nav-item"><A class="nav-link" HREF="Waste.html">Waste</A></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="row" id="contentlogin">
+    <input class="add-margin" name="name" type="text" placeholder="Name">
     <input name="password" type="password" placeholder="Password">
     &nbsp;&nbsp;&nbsp;
-    <input name="country" list="diet"  placeholder="Diet (select)">
+    <input class="add-margin" name="country" list="diet"  placeholder="Diet (select)">
     <datalist id="diet">
       <option value="Red meat incl. Beef">
       <option value="Red meat excl. Beef">
@@ -30,13 +31,14 @@
       <option value="Vegetarian">
       <option value="Vegan">
     </datalist>
+    <br class="narrow">
     &nbsp;&nbsp;&nbsp;Cultural origin:
-    <input name="region" type="radio" value="Western">Western
-    <input name="region" type="radio" value="Asian">Asian
-    <input name="region" type="radio" value="South American">South American
-    <input name="region" type="radio" value="African">African
-    <input name="region" type="radio" value="Other">Other
-    &nbsp;&nbsp;&nbsp;<button>Enter</button>
+      <input name="region" type="radio" value="Western">Western
+      <input name="region" type="radio" value="Asian">Asian
+      <input name="region" type="radio" value="South American">South American
+      <input name="region" type="radio" value="African">African
+      <input name="region" type="radio" value="Other">Other
+    &nbsp;&nbsp;&nbsp;<button class="add-margin">Enter</button>
   </div>
   <div>
     <BR>

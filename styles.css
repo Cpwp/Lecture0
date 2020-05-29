@@ -7,10 +7,13 @@ h1 {
 }
 
 table, th, td {
-	margin: 20px;
 	padding: 20px;
 	border-collapse: collapse;
 	text-align: center;
+}
+
+th, td {
+	margin: 20px;
 }
 
 input[type="radio"] {
@@ -18,10 +21,20 @@ input[type="radio"] {
 	margin-left: 10px;
 }
 
-.row {
+nav > div > a {
+	color: darkgreen;
+	font-weight: bold;
+}
+
+.navbar {
 	background: lightgreen;
-	text-align: center;
-	padding: 10px;
+	color: green;
+}
+
+.navbar-nav{
+	.container {
+		min-width: 200px;
+	}
 }
 
 .picturecell {
@@ -41,7 +54,10 @@ input[type="radio"] {
 
 #contentlogin {
 	background: #00cc44;
-	padding: 10px;
+}
+
+.add-margin{
+	margin: 10px;
 }
 
 input[type=password] {
@@ -68,5 +84,17 @@ button:hover {
 @media (max-width: 849px) {
 	.picturecell {
 		display: none;
+	}
+}
+
+@media (min-width: 1400px) {
+	.narrow	{
+		display: none;
+	}
+}
+
+@media (max-width: 1400px) {
+	.narrow {
+		display: inline;
 	}
 }
