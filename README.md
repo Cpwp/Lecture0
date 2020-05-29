@@ -1,6 +1,6 @@
 # Lecture0
 
-This is my Project0 submission, I have used Sustainability as a theme which is a personal interest. 
+This is my Project0 submission, I have used Sustainability as a theme which is a personal interest.
 I intend to build on this as I go through the course.
 
 All pages use a standard nav bar using an unordered list and Bootstrap 4 to highlight the active page when not on the index page
@@ -23,7 +23,7 @@ I have satisfied the Project0 requirements as follows:
 
 1) "Your website must contain at least four different .html pages, and it should be possible to get from any page on your website to any other page by following one or more hyperlinks."
 The site contains 5 pages, each has the same navigation links in the top bar, including the title that links to the homepage
- 
+
 2) "Your website must include at least one list (ordered or unordered), at least one table, and at least one image."
 The nav bar on each page uses an unordered list
 The Energy.html page uses a table
@@ -48,7 +48,7 @@ The website uses Bootstrap 4: https://stackpath.bootstrapcdn.com/bootstrap/4.5.0
 
 7) "Your stylesheets must use at least one SCSS variable, at least one example of SCSS nesting, and at least one use of SCSS inheritance."
 1 example of use of an scss variable: %tablestyle
-1 example of use of an scss nesting:
+1 example of use of an scss nesting: a ul inside a div is coloured blue, an ol inside a div is coloured green
 1 example of use of an scss inheritance: table, th and td all extend %tablestyle
 
 8) "In README.md, include a short writeup describing your project, what’s contained in each file, and (optionally) any other additional information the staff should know about your project."
@@ -56,4 +56,3 @@ You just finished reading it, I hope it wasn't too long :)
 
 Many thanks,
 Chris Willmott-Powell
-

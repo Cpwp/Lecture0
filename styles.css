@@ -21,6 +21,11 @@ nav > div > a {
   color: darkgreen;
   font-weight: bold; }
 
+div ul {
+  color: blue; }
+div ol {
+  color: green; }
+
 .navbar {
   background: lightgreen;
   color: green; }
