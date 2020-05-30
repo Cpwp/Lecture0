@@ -26,6 +26,10 @@ input[type="radio"] {
 	margin-left: 10px;
 }
 
+nav > div {
+	padding: 0px;
+}
+
 nav > div > a {
 	color: darkgreen;
 	font-weight: bold;
@@ -60,19 +64,30 @@ div {
 	color: lightgray;
 }
 
-.tablepic {
-	max-width: 250px;
-	max-height: 250px;
+%pic {
 	margin: auto;
 	display: block;
 }
 
-#contentlogin {
-	background: #00cc44;
+.tablepic {
+	max-width: 250px;
+	max-height: 250px;
 }
 
-.add-margin{
+.navpic {
+	@extend %pic;
+	max-width: 50px;
+	max-height: 50px;
+}
+
+#contentlogin {
+	background: darkgreen;
+	color: white;
+}
+
+.input-margin	{
 	margin: 10px;
+	margin-bottom: 0px;
 }
 
 input[type=password] {

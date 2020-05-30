@@ -17,6 +17,9 @@ input[type="radio"] {
   margin-right: 10px;
   margin-left: 10px; }
 
+nav > div {
+  padding: 0px; }
+
 nav > div > a {
   color: darkgreen;
   font-weight: bold; }
@@ -40,17 +43,25 @@ div ol {
   border-collapse: collapse;
   color: lightgray; }
 
-.tablepic {
-  max-width: 250px;
-  max-height: 250px;
+.navpic {
   margin: auto;
   display: block; }
 
-#contentlogin {
-  background: #00cc44; }
+.tablepic {
+  max-width: 250px;
+  max-height: 250px; }
 
-.add-margin {
-  margin: 10px; }
+.navpic {
+  max-width: 50px;
+  max-height: 50px; }
+
+#contentlogin {
+  background: darkgreen;
+  color: white; }
+
+.input-margin {
+  margin: 10px;
+  margin-bottom: 0px; }
 
 input[type=password] {
   background: lightgray; }

@@ -9,39 +9,49 @@
  <BODY>
   <nav class="navbar nav-pills navbar-expand-sm bg-lightgreen">
     <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">Sustainable</a>
+      <a class="navbar-brand" href="index.html">Sustainable</a>
       <ul class="nav navbar-nav">
-        <li class="nav-item"><A class="nav-link" HREF="Energy.html">Energy</A></li>
-        <li class="nav-item"><A class="nav-link active" HREF="Food.html">Food</A></li>
-        <li class="nav-item"><A class="nav-link" HREF="Travel.html">Travel</A></li>
-        <li class="nav-item"><A class="nav-link" HREF="Waste.html">Waste</A></li>
+        <li class="nav-item"><A HREF="Energy.html"><img class="navpic p-1 nav-link" src="Energy.png" title="Energy"></A></li>
+        <li class="nav-item"><A HREF="Food.html"><img class="navpic p-1 nav-link active" src="Food.png" title="Food"></A></li>
+        <li class="nav-item"><A HREF="Travel.html"><img class="navpic p-1 nav-link" src="Travel.png" title="Travel"></A></li>
+        <li class="nav-item"><A HREF="Waste.html"><img class="navpic nav-link" src="Waste.png" title="Waste"></A></li>
       </ul>
     </div>
   </nav>
-  <div class="row" id="contentlogin">
-    <input class="add-margin" name="name" type="text" placeholder="Name">
-    <input name="password" type="password" placeholder="Password">
-    &nbsp;&nbsp;&nbsp;
-    <input class="add-margin" name="country" list="diet"  placeholder="Diet (select)">
-    <datalist id="diet">
-      <option value="Red meat incl. Beef">
-      <option value="Red meat excl. Beef">
-      <option value="Meat excl. Red Meat">
-      <option value="Pescatarian (fish only)">
-      <option value="Vegetarian">
-      <option value="Vegan">
-    </datalist>
-    <br class="narrow">
-    &nbsp;&nbsp;&nbsp;Cultural origin:
-      <input name="region" type="radio" value="Western">Western
-      <input name="region" type="radio" value="Asian">Asian
-      <input name="region" type="radio" value="South American">South American
-      <input name="region" type="radio" value="African">African
-      <input name="region" type="radio" value="Other">Other
-    &nbsp;&nbsp;&nbsp;<button class="add-margin">Enter</button>
+  <div class="container-fluid">
+    <div class="row" id="contentlogin">
+      <div class="col-lg-12 input-margin">
+        <input name="name" type="text" placeholder="Name">
+        <input name="password" type="password" placeholder="Password">
+      </div>
+    </div>
+    <div class="row" id="contentlogin">
+      <div class="col-lg-2 input-margin">
+        <input name="country" list="diet"  placeholder="Diet (select)">
+        <datalist id="diet">
+          <option value="Red meat incl. Beef">
+          <option value="Red meat excl. Beef">
+          <option value="Meat excl. Red Meat">
+          <option value="Pescatarian (fish only)">
+          <option value="Vegetarian">
+          <option value="Vegan">
+        </datalist>
+      </div>
+    </div>
+    <div class="row" id="contentlogin">
+      <div class="col-lg-9 input-margin" style="margin-bottom: 5px; margin-top: 5px;">
+        Cultural origin:
+        <input class="flex-no-wrap" name="region" type="radio" value="Western">Western
+        <input class="flex-no-wrap" name="region" type="radio" value="Asian">Asian
+        <input class="flex-no-wrap" name="region" type="radio" value="South American">South American
+        <input class="flex-no-wrap" name="region" type="radio" value="African">African
+        <input class="flex-no-wrap" name="region" type="radio" value="Other">Other
+        &nbsp;&nbsp;&nbsp;
+        <button class="add-margin">Enter</button>
+      </div>
+    </div>
   </div>
-  <div>
-    <BR>
+  <div class="input-margin">
     For project0 this page has no other content, my intention is to use the form controls above to estimate the impact of the user's diet on the environment.
   </div>
  </BODY>
